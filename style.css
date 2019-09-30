@@ -105,3 +105,17 @@ form .btn-login{
     transform: translateX(0%);
   }
 }
+
+/* Close form */
+
+.form-hide{
+  animation: down 500ms forwards;
+}
+@keyframes down {
+  from{
+    transform: translateY(0);
+  }
+  to{
+    transform: translateY(100vh);
+  }
+}
